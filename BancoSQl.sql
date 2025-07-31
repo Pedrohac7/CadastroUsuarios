@@ -1,0 +1,9 @@
+CREATE DATABASE CadastroDB;
+
+USE CadastroDB;
+
+CREATE TABLE Usuarios (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(100),
+    Idade INT
+);
